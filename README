@@ -1,0 +1,11 @@
+Program Goals
+
+1. Load one or more files, and plot on same (or different?) graphs
+2. If loading multiple graphs, shift selected graph in time
+3. Offset selected graph (shift baseline)
+4. Average selected graphs
+5. Stack graphs
+6. Filter individual graphs, or stacked graph
+
+What is the simplest way to accomplish the above?  Some kind of command-line tool with a pipeline structure
+would be prudent.
