@@ -1,0 +1,9 @@
+#!/bin/sh
+
+FILES=`zenity --text="Select file to plot" --filename="/home/dcohen/Dropbox/Public/ra/gnuradio/Data/" --file-selection`
+
+VALUES=`zenity --forms --title="Define Arguments" --add-entry="Amount to trim from start of array" --add-entry="Amount to trim from end of array" --separator=" "`
+
+echo "$FILES $VALUES"
+
+python /home/dcohen/Dropbox/Public/ra/gnuradio/Code/plotsimple_ra.py "$FILES $VALUES"
